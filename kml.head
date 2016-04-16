@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom"><Document>
+<name>route 1</name><Style id="yellowLineGreenPoly">
+				<LineStyle>
+					<color>7fff0000</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>7fff0000</color>
+				</PolyStyle>
+			  </Style><Placemark><name>route 1</name><styleUrl>#yellowLineGreenPoly</styleUrl><LookAt><longitude>-82.435523</longitude><latitude>38.407411</latitude><range>6000</range><tilt>45.0</tilt><heading>0.0</heading></LookAt><visibility>1</visibility><IconStyle><Icon><href>http://veloroutes.org/images/bike_icon.png</href><x>96</x><y>160</y><w>64</w><h>64</h></Icon></IconStyle><LineString>
+		
+    		<extrude>0</extrude>
+    		<tessellate>0</tessellate>
+    		<altitudeMode>relative</altitudeMode>
+		<coordinates>

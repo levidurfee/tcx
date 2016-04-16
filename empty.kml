@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<atom:author>
+			<atom:name>{{ author_name }}</atom:name>
+		</atom:author>
+		<name>{{ route_name }}</name>
+		<Style id="poly">
+			<LineStyle>
+				<color>{{ line_color }}</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>{{ poly_color }}</color>
+			</PolyStyle>
+		  </Style>
+		  <Placemark>
+			<name>{{ route_name }}</name>
+			<styleUrl>#poly</styleUrl>
+			<LookAt>
+				<longitude>-82.435523</longitude>
+				<latitude>38.407411</latitude>
+				<range>6000</range>
+				<tilt>45.0</tilt>
+				<heading>0.0</heading>
+			</LookAt>
+			<visibility>1</visibility>
+			<IconStyle>
+				<Icon>
+					<href>http://veloroutes.org/images/bike_icon.png</href>
+					<x>96</x>
+					<y>160</y>
+					<w>64</w>
+					<h>64</h>
+				</Icon>
+			</IconStyle>
+			<LineString>
+				<extrude>0</extrude>
+				<tessellate>0</tessellate>
+				<altitudeMode>relative</altitudeMode>
+				<coordinates>{{ coordinates }}</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>
